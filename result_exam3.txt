@@ -1,0 +1,226 @@
+---- codewords ----
+
+[0, 0, 0, 0, 0, 0]
+[0, 0, 1, 1, 1, 0]
+[0, 1, 1, 0, 0, 1]
+[0, 1, 0, 1, 1, 1]
+[1, 0, 0, 0, 1, 1]
+[1, 0, 1, 1, 0, 1]
+[1, 1, 1, 0, 1, 0]
+[1, 1, 0, 1, 0, 0]
+
+---- zero bits check ----
+
+[0, 0, 0, 0, 0, 0]
+[0, 0, 1, 1, 1, 0]
+[0, 1, 1, 0, 0, 1]
+[0, 1, 0, 1, 1, 1]
+[1, 0, 0, 0, 1, 1]
+[1, 0, 1, 1, 0, 1]
+[1, 1, 1, 0, 1, 0]
+[1, 1, 0, 1, 0, 0]
+syndrome is [0, 0, 0]
+Known vectors : 8 
+
+---- one bits check ----
+
+Coset of [1, 0, 0, 0, 0, 0] 
+
+[1, 0, 0, 0, 0, 0]
+[1, 0, 1, 1, 1, 0]
+[1, 1, 1, 0, 0, 1]
+[1, 1, 0, 1, 1, 1]
+[0, 0, 0, 0, 1, 1]
+[0, 0, 1, 1, 0, 1]
+[0, 1, 1, 0, 1, 0]
+[0, 1, 0, 1, 0, 0]
+syndrome is [0, 0, 1]
+Known vectors : 16 
+
+Coset of [0, 1, 0, 0, 0, 0] 
+
+[0, 1, 0, 0, 0, 0]
+[0, 1, 1, 1, 1, 0]
+[0, 0, 1, 0, 0, 1]
+[0, 0, 0, 1, 1, 1]
+[1, 1, 0, 0, 1, 1]
+[1, 1, 1, 1, 0, 1]
+[1, 0, 1, 0, 1, 0]
+[1, 0, 0, 1, 0, 0]
+syndrome is [0, 1, 0]
+Known vectors : 24 
+
+Coset of [0, 0, 1, 0, 0, 0] 
+
+[0, 0, 1, 0, 0, 0]
+[0, 0, 0, 1, 1, 0]
+[0, 1, 0, 0, 0, 1]
+[0, 1, 1, 1, 1, 1]
+[1, 0, 1, 0, 1, 1]
+[1, 0, 0, 1, 0, 1]
+[1, 1, 0, 0, 1, 0]
+[1, 1, 1, 1, 0, 0]
+syndrome is [0, 1, 1]
+Known vectors : 32 
+
+Coset of [0, 0, 0, 1, 0, 0] 
+
+[0, 0, 0, 1, 0, 0]
+[0, 0, 1, 0, 1, 0]
+[0, 1, 1, 1, 0, 1]
+[0, 1, 0, 0, 1, 1]
+[1, 0, 0, 1, 1, 1]
+[1, 0, 1, 0, 0, 1]
+[1, 1, 1, 1, 1, 0]
+[1, 1, 0, 0, 0, 0]
+syndrome is [1, 0, 0]
+Known vectors : 40 
+
+Coset of [0, 0, 0, 0, 1, 0] 
+
+[0, 0, 0, 0, 1, 0]
+[0, 0, 1, 1, 0, 0]
+[0, 1, 1, 0, 1, 1]
+[0, 1, 0, 1, 0, 1]
+[1, 0, 0, 0, 0, 1]
+[1, 0, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0]
+[1, 1, 0, 1, 1, 0]
+syndrome is [1, 1, 0]
+Known vectors : 48 
+
+Coset of [0, 0, 0, 0, 0, 1] 
+
+[0, 0, 0, 0, 0, 1]
+[0, 0, 1, 1, 1, 1]
+[0, 1, 1, 0, 0, 0]
+[0, 1, 0, 1, 1, 0]
+[1, 0, 0, 0, 1, 0]
+[1, 0, 1, 1, 0, 0]
+[1, 1, 1, 0, 1, 1]
+[1, 1, 0, 1, 0, 1]
+syndrome is [1, 1, 1]
+Known vectors : 56 
+
+
+---- two bits check ----
+Coset of [1, 1, 0, 0, 0, 0]
+This is already in an another coset
+
+Coset of [1, 0, 1, 0, 0, 0]
+[1, 0, 1, 0, 0, 0]
+[1, 0, 0, 1, 1, 0]
+[1, 1, 0, 0, 0, 1]
+[1, 1, 1, 1, 1, 1]
+[0, 0, 1, 0, 1, 1]
+[0, 0, 0, 1, 0, 1]
+[0, 1, 0, 0, 1, 0]
+[0, 1, 1, 1, 0, 0]
+syndrome is [0, 1, 0]
+Known vectors : 64 
+
+Coset of [1, 0, 0, 1, 0, 0]
+This is already in an another coset
+
+Coset of [1, 0, 0, 0, 1, 0]
+This is already in an another coset
+
+Coset of [1, 0, 0, 0, 0, 1]
+This is already in an another coset
+
+Coset of [0, 1, 1, 0, 0, 0]
+This is already in an another coset
+
+Coset of [0, 1, 0, 1, 0, 0]
+This is already in an another coset
+
+Coset of [0, 1, 0, 0, 1, 0]
+This is already in an another coset
+
+Coset of [0, 1, 0, 0, 0, 1]
+This is already in an another coset
+
+Coset of [0, 0, 1, 1, 0, 0]
+This is already in an another coset
+
+Coset of [0, 0, 1, 0, 1, 0]
+This is already in an another coset
+
+Coset of [0, 0, 1, 0, 0, 1]
+This is already in an another coset
+
+Coset of [0, 0, 0, 1, 1, 0]
+This is already in an another coset
+
+Coset of [0, 0, 0, 1, 0, 1]
+This is already in an another coset
+
+Coset of [0, 0, 0, 0, 1, 1]
+This is already in an another coset
+
+
+----- Error Correcting -----
+[0, 0, 0, 0, 0, 0] is decoded to [0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1] is decoded to [0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0] is decoded to [0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 1] is decoded to [1, 0, 0, 0, 1, 1]
+[0, 0, 0, 1, 0, 0] is decoded to [0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 1] Impossible to decode
+[0, 0, 0, 1, 1, 0] is decoded to [0, 0, 1, 1, 1, 0]
+[0, 0, 0, 1, 1, 1] is decoded to [0, 1, 0, 1, 1, 1]
+[0, 0, 1, 0, 0, 0] is decoded to [0, 0, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 1] is decoded to [0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 1, 0] is decoded to [0, 0, 1, 1, 1, 0]
+[0, 0, 1, 0, 1, 1] Impossible to decode
+[0, 0, 1, 1, 0, 0] is decoded to [0, 0, 1, 1, 1, 0]
+[0, 0, 1, 1, 0, 1] is decoded to [1, 0, 1, 1, 0, 1]
+[0, 0, 1, 1, 1, 0] is decoded to [0, 0, 1, 1, 1, 0]
+[0, 0, 1, 1, 1, 1] is decoded to [0, 0, 1, 1, 1, 0]
+[0, 1, 0, 0, 0, 0] is decoded to [0, 0, 0, 0, 0, 0]
+[0, 1, 0, 0, 0, 1] is decoded to [0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 1, 0] Impossible to decode
+[0, 1, 0, 0, 1, 1] is decoded to [0, 1, 0, 1, 1, 1]
+[0, 1, 0, 1, 0, 0] is decoded to [1, 1, 0, 1, 0, 0]
+[0, 1, 0, 1, 0, 1] is decoded to [0, 1, 0, 1, 1, 1]
+[0, 1, 0, 1, 1, 0] is decoded to [0, 1, 0, 1, 1, 1]
+[0, 1, 0, 1, 1, 1] is decoded to [0, 1, 0, 1, 1, 1]
+[0, 1, 1, 0, 0, 0] is decoded to [0, 1, 1, 0, 0, 1]
+[0, 1, 1, 0, 0, 1] is decoded to [0, 1, 1, 0, 0, 1]
+[0, 1, 1, 0, 1, 0] is decoded to [1, 1, 1, 0, 1, 0]
+[0, 1, 1, 0, 1, 1] is decoded to [0, 1, 1, 0, 0, 1]
+[0, 1, 1, 1, 0, 0] Impossible to decode
+[0, 1, 1, 1, 0, 1] is decoded to [0, 1, 1, 0, 0, 1]
+[0, 1, 1, 1, 1, 0] is decoded to [0, 0, 1, 1, 1, 0]
+[0, 1, 1, 1, 1, 1] is decoded to [0, 1, 0, 1, 1, 1]
+[1, 0, 0, 0, 0, 0] is decoded to [0, 0, 0, 0, 0, 0]
+[1, 0, 0, 0, 0, 1] is decoded to [1, 0, 0, 0, 1, 1]
+[1, 0, 0, 0, 1, 0] is decoded to [1, 0, 0, 0, 1, 1]
+[1, 0, 0, 0, 1, 1] is decoded to [1, 0, 0, 0, 1, 1]
+[1, 0, 0, 1, 0, 0] is decoded to [1, 1, 0, 1, 0, 0]
+[1, 0, 0, 1, 0, 1] is decoded to [1, 0, 1, 1, 0, 1]
+[1, 0, 0, 1, 1, 0] Impossible to decode
+[1, 0, 0, 1, 1, 1] is decoded to [1, 0, 0, 0, 1, 1]
+[1, 0, 1, 0, 0, 0] Impossible to decode
+[1, 0, 1, 0, 0, 1] is decoded to [1, 0, 1, 1, 0, 1]
+[1, 0, 1, 0, 1, 0] is decoded to [1, 1, 1, 0, 1, 0]
+[1, 0, 1, 0, 1, 1] is decoded to [1, 0, 0, 0, 1, 1]
+[1, 0, 1, 1, 0, 0] is decoded to [1, 0, 1, 1, 0, 1]
+[1, 0, 1, 1, 0, 1] is decoded to [1, 0, 1, 1, 0, 1]
+[1, 0, 1, 1, 1, 0] is decoded to [0, 0, 1, 1, 1, 0]
+[1, 0, 1, 1, 1, 1] is decoded to [1, 0, 1, 1, 0, 1]
+[1, 1, 0, 0, 0, 0] is decoded to [1, 1, 0, 1, 0, 0]
+[1, 1, 0, 0, 0, 1] Impossible to decode
+[1, 1, 0, 0, 1, 0] is decoded to [1, 1, 1, 0, 1, 0]
+[1, 1, 0, 0, 1, 1] is decoded to [1, 0, 0, 0, 1, 1]
+[1, 1, 0, 1, 0, 0] is decoded to [1, 1, 0, 1, 0, 0]
+[1, 1, 0, 1, 0, 1] is decoded to [1, 1, 0, 1, 0, 0]
+[1, 1, 0, 1, 1, 0] is decoded to [1, 1, 0, 1, 0, 0]
+[1, 1, 0, 1, 1, 1] is decoded to [0, 1, 0, 1, 1, 1]
+[1, 1, 1, 0, 0, 0] is decoded to [1, 1, 1, 0, 1, 0]
+[1, 1, 1, 0, 0, 1] is decoded to [0, 1, 1, 0, 0, 1]
+[1, 1, 1, 0, 1, 0] is decoded to [1, 1, 1, 0, 1, 0]
+[1, 1, 1, 0, 1, 1] is decoded to [1, 1, 1, 0, 1, 0]
+[1, 1, 1, 1, 0, 0] is decoded to [1, 1, 0, 1, 0, 0]
+[1, 1, 1, 1, 0, 1] is decoded to [1, 0, 1, 1, 0, 1]
+[1, 1, 1, 1, 1, 0] is decoded to [1, 1, 1, 0, 1, 0]
+[1, 1, 1, 1, 1, 1] Impossible to decode
